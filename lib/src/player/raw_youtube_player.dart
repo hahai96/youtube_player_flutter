@@ -67,7 +67,7 @@ class _RawYoutubePlayerState extends State<RawYoutubePlayer>
         break;
       case AppLifecycleState.paused:
         _cachedPlayerState = controller.value.playerState;
-        controller?.pause();
+//         controller?.pause();
         break;
       default:
     }
